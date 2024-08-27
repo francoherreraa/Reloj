@@ -56,7 +56,7 @@ public class Persona {
         System.out.println("La hora es: "+reloj.getHora());
     }
     
-    public void perdirPasos(int x2, int y2){
+    public void perdirPasos(int x2, int y2){// revisado por jon
         if (this.reloj instanceof RelojFit ){
             //Falta terminar
         }
