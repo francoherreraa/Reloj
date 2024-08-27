@@ -23,7 +23,7 @@ public class Persona {
         this.X = 0;
         this.y = 0;
     }
-
+//Santiago estuvo aquí
     public String getNombre() {
         return nombre;
     }
