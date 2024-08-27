@@ -57,7 +57,9 @@ public class Persona {
     }
     
     public void perdirPasos(int x2, int y2){
-        if (this.reloj instanceof RelojFit )
+        if (this.reloj instanceof RelojFit ){
+            //Falta terminar
+        }
     }
     
 }
