@@ -18,7 +18,7 @@ public class RelojFit extends unReloj{
     }
     
     public int frecuenciaAleatoria(){
-        return (int)(Math.random() * 151) + 30;  
+        return (int)(Math.random() * 150) + 30;  
     }
     
     
