@@ -8,13 +8,13 @@ import java.time.LocalTime;
  *
  * @author Franco
  */
-public class unReloj{   
+public class UnReloj{   
     private String modelo;   
     private int numSerie;
     private int hora = 0;
     private int dia = 0;
 
-    public unReloj(String modelo, int numSerie) {
+    public UnReloj(String modelo, int numSerie) {
         this.modelo = modelo;
         this.numSerie = numSerie;         
     }

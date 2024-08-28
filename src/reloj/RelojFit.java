@@ -5,7 +5,7 @@ package reloj;
  *
  * @author Franco
  */
-public class RelojFit extends unReloj{
+public class RelojFit extends UnReloj{
     
     
     public RelojFit(String modelo, int numSerie) {
@@ -18,7 +18,7 @@ public class RelojFit extends unReloj{
     }
     
     public int frecuenciaAleatoria(){
-        return (int)(Math.random() * 150) + 30;  
+        return (int)(Math.random() * 120);  
     }
     
     
