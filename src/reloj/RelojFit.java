@@ -13,7 +13,7 @@ public class RelojFit extends UnReloj{
     }
     
     public int cuentaPasos(int x1, int y1, int x2, int y2){
-        int pasos = (int)Math.sqrt((x2 - x1)^2+(y2 - y1)^2);
+        int pasos = (int) Math.sqrt(Math.pow(x2 - x1,2)+Math.pow(y2 - y1,2));
         return pasos;
     }
     

@@ -54,18 +54,19 @@ public class Persona {
     }
 
     public void decirHora() {
-        System.out.println("La hora es: " + reloj.getHora());
+        System.out.println("Mi reloj marca las: " + reloj.getHora());
     }
 
     public void pedirPasos(int x2, int y2) {// revisado por jon
         if (this.reloj instanceof RelojFit) {
-            RelojFit relojFit = (RelojFit) reloj; //Se castea el reloj para poder utilizar el método .cuentaPasos()            
+            RelojFit relojFit = (RelojFit) reloj; //Se castea el reloj para poder utilizar el método .cuentaPasos()
+            relojFit.cuentaPasos(x, y, x2, y2);
             System.out.println("Acabo de caminar " + relojFit.cuentaPasos(x, y, x2, y2) + " pasos");
-            System.out.println("Mi posición actual es: (" + x2 + "," + y2);
+            System.out.println("Mi posición actual es: (" + x2 + "," + y2+")");
             this.x = x2;
             this.y = y2;
         } else {
-            System.out.println("Este reloj no puede contar los pasos");
+            System.out.println("Mi reloj no puede contar los pasos");
         }
     }
 

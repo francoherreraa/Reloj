@@ -8,19 +8,21 @@ public class Reloj {
         Persona carlos = new Persona("Carlos", 25);
         Persona maria = new Persona("María", 18);
         
-        //Métodos llamados desde Carlos con un reloj común.
+        System.out.println("* MÉTODOS UTILIZADOS POR CARLOS CON SU RELOJ COMÚN*");
         carlos.asignarReloj(relojComun);
         carlos.decirHora();
         carlos.aumentarHoraReloj();
         carlos.decirHora();
-//        carlos.pedirPasos(3, 4);
+        carlos.pedirPasos(3, 4);
         
-//        //Métodos llamados desde María con un reloj Fit.
-//        maria.asignarReloj(smartWatch);
-//        maria.decirHora();
-//        maria.aumentarHoraReloj();
-//        maria.decirHora();
-//        maria.pedirPasos(3, 4);
+        System.out.println("");
+        System.out.println("* MÉTODOS UTILIZADOS POR MARÍA CON SU RELOJ FIT *");
+        maria.asignarReloj(smartWatch);
+        maria.decirHora();
+        maria.aumentarHoraReloj();
+        maria.aumentarHoraReloj();
+        maria.decirHora();
+        maria.pedirPasos(3, 4);
     }
     
 }
